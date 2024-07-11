@@ -26,4 +26,60 @@ git config --global user.email "your_correct_email@example.com"
 2. Rebase Interactive:
 
     Start an interactive rebase:
+   ```bash
+git rebase -i HEAD~n
 
+```
+Replace n with the number of commits you want to change.
+
+3. Change the Commit Author:
+
+    For each commit you want to change, replace pick with edit.
+    with steps bellow
+    a. Entering Insert Mode:
+
+    To start editing the file, you need to enter Insert mode. Press i to insert text at the cursor.
+    You can also use a to start inserting text after the cursor or o to open a new line below the cursor.
+
+    b. Making Changes:
+
+    Type your text or make changes as needed.
+    Use the arrow keys to move the cursor around.
+
+    c. Exiting Insert Mode:
+
+    Press Esc to return to Normal mode.
+
+    d. Saving Changes:
+
+    In Normal mode, type :w to save the file.
+
+    e. Saving and Exiting Vim:
+
+    In Normal mode, type :wq and press Enter to save and exit.
+    Alternatively, you can type :x and press Enter to save and exit.
+
+4. Amend the Commit:
+
+    For each commit marked for editing, change the author:
+   ```bash
+git commit --amend --author="Your Correct Name <your_correct_email@example.com>"
+
+
+
+```
+Continue the rebase process:
+```bash
+git rebase --continue
+```
+5. Force Push the Changes:
+
+    Force push the changes to the remote repository:
+   ```bash
+git push --force
+
+   ```
+
+Create a New Pull Request:
+
+    If necessary, create a new pull request with the corrected commits.
