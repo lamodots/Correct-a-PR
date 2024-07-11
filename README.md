@@ -2,13 +2,13 @@
 How revert a pull request made with the wrong GitHub account, you can follow these steps:
 ## Option 1: Close the Pull Request
 
-    - Close the Pull Request:
+    1. Close the Pull Request:
         Go to the GitHub repository where the pull request was made.
         Navigate to the "Pull Requests" tab.
         Find the pull request made with the wrong account.
         Click on the pull request, then click on the "Close pull request" button.
 
-    - Re-create the Pull Request:
+    2. Re-create the Pull Request:
         Ensure you're using the correct GitHub account on your work computer.
         Switch to the correct branch in your local repository.
         Make any necessary changes or commits.
