@@ -19,10 +19,10 @@ How revert a pull request made with the wrong GitHub account, you can follow the
 
 If the pull request has been merged or you want to change the author of the commits, you can amend the commit history:
 1. Set Up Git to Use the Correct User:
-``bash
+```bash
 git config --global user.name "Your Correct Name"
 git config --global user.email "your_correct_email@example.com"
-``
+```
 2. Rebase Interactive:
 
     Start an interactive rebase:
