@@ -34,7 +34,8 @@ Replace n with the number of commits you want to change.
 3. Change the Commit Author:
 
     For each commit you want to change, replace pick with edit.
-    with steps bellow
+    with steps bellow.
+   
     a. Entering Insert Mode:
 
     To start editing the file, you need to enter Insert mode. Press i to insert text at the cursor.
@@ -58,7 +59,7 @@ Replace n with the number of commits you want to change.
     In Normal mode, type :wq and press Enter to save and exit.
     Alternatively, you can type :x and press Enter to save and exit.
 
-4. Amend the Commit:
+5. Amend the Commit:
 
     For each commit marked for editing, change the author:
    ```bash
