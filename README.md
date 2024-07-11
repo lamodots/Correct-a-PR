@@ -26,9 +26,8 @@ git config --global user.email "your_correct_email@example.com"
 2. Rebase Interactive:
 
     Start an interactive rebase:
-   ```bash
+```bash
 git rebase -i HEAD~n
-
 ```
 Replace n with the number of commits you want to change.
 
@@ -64,9 +63,6 @@ Replace n with the number of commits you want to change.
     For each commit marked for editing, change the author:
    ```bash
 git commit --amend --author="Your Correct Name <your_correct_email@example.com>"
-
-
-
 ```
 Continue the rebase process:
 ```bash
