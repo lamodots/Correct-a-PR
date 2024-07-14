@@ -1,5 +1,5 @@
 # Correct-a-PR
-How revert a pull request made with the wrong GitHub account, you can follow these steps:
+How to revert a pull request made with the wrong GitHub account, you can follow these steps:
 ## Option 1: Close the Pull Request
 
     1. Close the Pull Request:
